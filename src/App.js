@@ -6,9 +6,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <p>here is REACT_APP_TEST_ENV_VAR value: {process.env.REACT_APP_TEST_ENV_VAR}</p>
+        <p>here is API_URL value: {process.env.API_URL}</p>
         <a
           className="App-link"
           href="https://reactjs.org"
